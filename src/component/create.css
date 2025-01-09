@@ -1,0 +1,224 @@
+/* General Form Styles */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  
+  
+  
+  /* Labels */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+  }
+  
+  /* Input Fields */
+  input[type="text"],
+  input[type="email"],
+  select,
+  input[type="file"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+  }
+  
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  select:focus,
+  input[type="file"]:focus {
+    border-color: #4CAF50;
+    outline: none;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+  /* Radio Buttons */
+  input[type="radio"] {
+    margin-right: 8px;
+    transform: scale(1.1);
+  }
+  
+  label input[type="radio"] {
+    margin-bottom: 0;
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  div label {
+    margin-bottom: 10px;
+  }
+  
+  /* Error Messages */
+  p {
+    color: red;
+    font-size: 0.9em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+  }
+  
+  /* File Upload */
+  input[type="file"] {
+    padding: 5px;
+  }
+  
+  /* Buttons */
+  button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    transition: background-color 0.3s ease;
+
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Full Name Field Layout */
+  div input[name="firstName"],
+  div input[name="middleName"],
+  div input[name="lastName"] {
+    width: calc(33% - 10px);
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  div input[name="middleName"] {
+    margin-right: 0;
+  }
+  
+  /* Birth Date Field Layout */
+  select {
+    display: inline-block;
+    width: calc(33% - 10px);
+    margin-right: 10px;
+  }
+  
+  select:last-child {
+    margin-right: 0;
+  }
+  
+  /* Radio Button Alignment */
+  div input[type="radio"] {
+    display: inline-block;
+    margin-right: 5px;
+  }
+  
+  label[for="keepInformed"] {
+    margin-bottom: 5px;
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    form {
+      padding: 15px;
+    }
+  
+    h1 {
+      font-size: 1.5em;
+    }
+  
+    div input[name="firstName"],
+    div input[name="middleName"],
+    div input[name="lastName"],
+    select {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  }
+  /* General table styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+  }
+  
+  /* Header styles */
+  table thead th {
+    background-color: #f4f4f4;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Row styles */
+  table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  table tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  /* Cell styles */
+  table td, table th {
+    padding: 10px;
+    border: 1px solid #ddd;
+  }
+  
+  /* Hover effect for rows */
+  table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Button styles */
+  button {
+    padding: 5px 10px;
+    margin: 0 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Edit button */
+  button:nth-child(1) {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  /* Delete button */
+  button:nth-child(2) {
+    background-color: #f44336;
+    color: white;
+  }
+  .customer {
+    text-align: center; /* Aligns text horizontally in the center */
+    margin-top: 20px;   /* Adds some space above the heading */
+    font-size: 24px;    /* Optional: Adjust font size */
+    color: #333;        /* Optional: Set a text color */
+  }
+  .no {
+    text-align: center; /* Centers the text within its container */
+    margin-top: 20px;   /* Adds spacing above the text */
+    font-size: 18px;    /* Optional: Adjust font size */
+    color: #555;        /* Optional: Set text color */
+  }
+ 

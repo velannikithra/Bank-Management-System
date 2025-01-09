@@ -1,0 +1,56 @@
+/* Header Bar */
+.header-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2196F3; /* Blue background */
+    color: white;
+    padding: 10px 20px; /* Spacing inside the bar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .header-title {
+    font-size: 20px;
+    margin: 0; /* No extra margins */
+    flex: 1; /* Makes the title take up available space */
+    text-align: center;
+  }
+  
+  .toggle-icon {
+    font-size: 24px;
+    cursor: pointer;
+    margin-right: 10px; /* Adds space on the right */
+  }
+  
+  .profile-section {
+    display: flex;
+    align-items: center;
+    position: relative; /* To position the dropdown relative to this container */
+    cursor: pointer;
+  }
+  
+  .profile-dropdown {
+    position: absolute;
+    right: 0;
+    top: 40px; /* Below the profile icon */
+    background-color: white;
+    border: 1px solid #ddd; /* Border for dropdown */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+    border-radius: 5px;
+    z-index: 100; /* Ensure dropdown is above other elements */
+    width: 200px; /* Set width for consistency */
+  }
+  
+  .profile-dropdown .dropdown-item {
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .profile-dropdown .dropdown-item:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+  }
+  

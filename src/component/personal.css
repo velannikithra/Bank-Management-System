@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+.personal{
+    width: 100%;   
+}
+.paragraph{
+    padding-left: 150px;
+    padding-right: 150px;
+    color: black;
+}
+
+.features{
+    padding-left:150px;
+    padding-right: 150px;
+    padding-top: 30px;
+}
+.benifits{
+    padding-left:200px;
+    padding-right: 150px;
+}
+
+
